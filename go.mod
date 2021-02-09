@@ -10,6 +10,7 @@ require (
 	github.com/go-xorm/xorm v0.7.9
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
 	github.com/google/go-cmp v0.3.0 // indirect
+	github.com/importcjj/sensitive v0.0.0-20200106142752-42d1c505be7b
 	github.com/kr/pretty v0.2.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect

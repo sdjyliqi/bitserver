@@ -10,9 +10,9 @@ func InitRouter(r *gin.Engine) {
 
 	r.Use(middleware.Cors())
 	// uc先关接口
-	GroupV1 := r.Group("/uc")
+	GroupV1 := r.Group("/api")
 	{
-		GroupV1.GET("/hi", handle.UCLogin)
+		GroupV1.GET("/words", handle.UCLogin)
 		GroupV1.GET("/hello", handle.UCLogin)
 	}
 	// message相关接口
